@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <title>회원가입</title>
+  </head>
+  <body>
+    <h3>   <center>회원가입</center> </h3>
+    <fieldset>
+      <legend>
+    <table border="1" width="100%">
+      <colgroup>
+        <col width="100"/>
+        <col width="300"/>
+      </colgroup>
+      <tr>
+      <td><label for="name">이 름</label></td>
+        <td><input type="text" placeholder="군소" id="name"/></td>
+      </tr>
+      <tr>
+        <td>성 별</td>
+        <td><input type="radio" value="gender" checked/> 남
+            <input type="radio" value="gender"/> 여
+        </td>
+      </tr>
+      <tr>
+      <td><label for="id">아이디</label></td>
+        <td><input type="text" placeholder="msth" id="id"/>
+            <input type="submit" value="중복확인"/>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="pwd">비밀번호</label></td>
+        <td><input type="password" placeholder="****" id="pwd"/> </td>
+      </tr>
+      <tr>
+        <td><label for="rpwd">비밀번호재입력</label></td>
+        <td><input type="password" placeholder="****" id="rpwd"/></td>
+      </tr>
+      <tr>
+        <td><label for="adress">주 소</label></td>
+        <td><input type="text" placeholder="바다" id="adress"/>
+            <input type="submit" value="주소찾기"></td>
+      </tr>
+      <tr>
+        <td><label for="email">이메일</label></td>
+        <td><input type="text" placeholder="msth" id="email"/> @ <input type="text">
+            <select>
+              <option>naver.com</option>
+              <option>google.com</option>
+              <option>nate.com</option>
+            </select>
+        </td>
+      </tr>
+      <tr>
+        <td>전화번호</td>
+        <td><select>
+              <option>010</option>
+              <option>070</option>
+              <option>02</option>
+        </select>-
+         <input type="text" placeholder="0000"/>-
+         <input type="text" placeholder="0000"/>
+        </td>
+      </tr>
+      <tr>
+        <td>취 미</td>
+        <td><input type="checkbox" name="hobby" value="travel"/> 여행
+            <input type="checkbox" name="hobby" value="shopping"/> 쇼핑
+            <input type="checkbox" name="hobby" value="game" checked="checked"/> 게임
+            <input type="checkbox" name="hobby" value="etc" checked="checked"/> 기타
+        </td>
+      </tr>
+      <tr>
+        <td><label for="information"> 자기소개 </label></td>
+        <td><textarea id="information" placeholder="우리군소"></textarea></td>
+      </tr>
+    </table>
+     <center><input type="submit" value="완료"/>
+     <input type="submit" value="다시입력"/></center>
+  </body>
+</html>
+     </legend>
+    </fieldset>
+
+<input type="button " value="click me" onclick="runprocess()">
