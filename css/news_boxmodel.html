@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+ <style>
+    .wrap{border: 1px #F00 solid; width: 900px; height: 540px; margin: 0 auto;}
+    .top{border: 1px #F00 solid; height: 111px; margin: 0 30px 20px;}
+    .contents{border: 1px #F00 solid; height: 380px; margin:0 30px;}
+    /*.inner-left{border: 1px #F00 solid; heigh: 513px; width: 395px;}
+    .inner-right{border: 1px #F00 solid; heigh: 307px; width:375px;}*/
+    /*둘다 왼쪽정렬로 보여지기 때문에 float로 공중으로 띄어주어야 한다. */
+    /*.inner-left{border: 1px #F00 solid; width: 513px; height: 395px; float: left;}*/
+    /*어차피 height는 컨텐츠만큼 커지므로 현재는 부모의 테두리 안에 있기 때문애 100%라고 지정해 주어
+    부모의 크기에 종속되도록 한다. */
+    .inner_left{border: 1px #F00 solid; width: 513px; height: 100%; float: left;}
+    /*.inner_right{border: 1px #F00 solid; width: 307px; height: 375px;}*/
+    /*content박스의 왼쪽정렬로 겹쳐 지기 때문에 float: right를 해준다. or 왼쪽에 마진을 둔다 */
+    .inner_right{border: 1px #F00 solid; height: 100%; margin-left: 513px;}
+    /*.inner_right{border: 1px #F00 solid; height: 100%; width: 327px; float: right;}
+    width 값을 전체width-inner_left=327로 주면 border값들로 인하여 크기가 커서 제자리에 들어가지 못한다.
+    border값은 계산하여 빼주어야 한다. */
+    .left_top{border: 1px #F00 solid; width: 513px; height: 132px;}
+    .left_bottom{border: 1px #F00 solid; width: 513px; height:246px;}
+    .right_top{border: 1px #F00 solid; height: 82px;}
+    .right_bottom{border: 1px #F00 solid; height: 296px;}
+    .lb_left{border: 1px #F00 solid; width: 162px; height:100%;float:left;}
+    .lb_right{border: 1px #F00 solid; height: 100%; margin-left: 162px;}
+
+
+ </style>
+
+  </head>
+  <body>
+
+     <div class="wrap">
+         <div class="top"></div>
+         <div class="contents">
+            <div class="inner_left">
+                <div class="left_top">
+                </div>
+                <div class="left_bottom">
+                   <div class="lb_left">
+                   </div>
+                   <div class="lb_right">
+                   </div>
+                </div>
+            </div>
+            <div class="inner_right">
+               <div class="right_top"></div>
+               <div class="right_bottom"></div>
+            </div>
+
+
+
+
+         </div>
+
+
+
+    </div>
+  </body>
+</html>
