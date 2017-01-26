@@ -17,13 +17,19 @@
      .lc-bottom{outline: 1px #F00 solid; width:100%; height: 94px;}
 
      .right-contents{outline: 1px #F00 solid; margin-left: 625px; height: 100%;}
+
      .rc-top{outline: 1px #F00 solid; width:210px; height:240px;}
      .rc-bottom{outline: 1px #F00 solid; width:210px; height:135px;}
+
      .lct-left{outline:1px #F00 solid; width:328px; height:240px; background-image:url('../../images/lct-left.jpg');float:left;}
      .lct-left span{margin-top:220px; font-size: 12px;}
-     .lct-news{outline: 1px #F00 solid; width:295px; height:132px; float:right; margin:0; padding: 0;}
-     .lct-mid{background-image:url('../../images/lc-mid.jpg'); width:146px; height:100%; outline:1px #F00 solid;}
-     .lct-right{width:146px; height:100%; outline: 1px #F00 solid;}
+
+     .lc-top .lct-news{outline:1px #F00 solid; width:295px; height:132px; float:right; margin:0; padding: 0;}
+     .lc-top .lct-news .lct-mid{width:143px; height:132px; outline:1px #F00 solid;background-image:url('../../images/lc-mid.jpg'); float:left;}
+     .lc-top .lct-news .lct-right{width:143px; height:132px; outline:1px #F00 solid;background-image:url('../../images/lct-right.jpg');margin-left:143px;}
+
+
+
 
     </style>
   </head>
@@ -45,20 +51,29 @@
          <div class="contents">
              <section class="left-contents">
                  <div class="lc-top">
-                      <div class="lct-left"><a href=""><span>[단독]YG원, 솔로앨범으로 상반기 나온다..'쇼미5'...<span/></a>
+                      <div class="lct-left"><a href="">
+                      <span>[단독]YG원, 솔로앨범으로 상반기 나온다..'쇼미5'...<span/></a>
                       </div>
                       <ul class="lct-news">
-                         <li class="lct-mid"></li>
+                         <li class="lct-mid">
+                           <span>'강적들'표창원편 결방, 그림 논란탓?</span>
+                         </li>
 
-                         <li class="lct-right"></li>
+                         <li class="lct-right">
+                           <span>[설기획]골라보는 재미, SBS파일럿...</span>
+                         </li>
+                       </ul>
+                  </div>
 
 
                       <ul class="lc-mid">
-                         <li class="lc-mid-a">
+                         <li>
+                            <div class="lc-mid-a"></div>
                             <span></span>
                          </li>
-                         <li class="lc-mid-b">
-                              <span></span>
+                         <li>
+                             <div class="lc-mid-b"></div>
+                             <span></span>
                           </li>
                       </ul>
                       <ul>
