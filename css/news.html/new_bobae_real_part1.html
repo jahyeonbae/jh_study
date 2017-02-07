@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    /*reset*/
+    *{margin:0;padding:0;}
+    body{font-size:12px;}
+    ul,ol,dl,li{list-style:none;}
+    img{vertical-align:top; border:0;}
+    input,botton{vertical-align:middle;}
+    a{text-decoration:none; color:#373737;}
+    i,em{font-style:normal;}
+
+    /*option*/
+    .fl{float:left;}
+    .fr{float:right;}
+
+
+    /*icon*/
+    .icon_bookmark{
+        padding-left:13px;
+        background-image: url(../images/bobea/icon_star.png);
+        background-repeat: no-repeat;
+        background-position: 0 4px;
+    }
+
+    .icon-uparrow{
+        padding-left:8px;
+        background-image: url(../images/bobea/icon_up.png);
+        background-repeat: no-repeat;
+        background-position: 0 4px;
+    }
+
+    /*layout*/
+    .header{
+        border-bottom:1px #d5d0cc solid;
+        height:30px;
+        background-color: #f8f8f8;
+    }
+    .gnb{
+        outline:1px #d5d0cc solid;
+        width: 990px;
+        height:31px;
+        margin:0 auto;
+        line-height:30px;
+    }
+    .gnb .site_option div{
+        float:left;
+    }
+    .gnb .site_option div:first-child{
+        margin-right:13px;
+    }
+
+    .gnb .site_option div.rank li{
+        padding-left:19px;
+        background-image: url(../images/bobea/icon_num10.png);
+        background-repeat: no-repeat;
+        background-position: 0 10px;
+    }
+    .gnb .site_option div.rank li i{
+        font-size:11px;
+        margin-left:8px;
+    }
+    .gnb .global_menu ul{
+        font-size:0;
+    }
+    .gnb .global_menu li{
+        display: inline-block;
+        font-size:12px;
+        vertical-align:middle;
+
+    }
+    .gnb .global_menu li:before{
+        content:"";
+        border-left:1px #d1d1d1 solid;
+        height:11px;
+        display: inline-block;
+        margin:0 7px 0 8px;
+        vertical-align:middle;
+
+    }
+    .gnb .global_menu li:first-child:before{
+        content:"";
+        border:0;
+        margin:0;
+    }
+
+    .lnb{height:107px; outline:1px #F00 solid; margin:0 auto; width: 990px;}
+    .lnb .logo{outline:1px #F00 solid;}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="gnb">
+            <div class="site_option fl">
+                <div><a href="" class="icon_bookmark">즐겨찾기</a></div>
+                <div class="rank">
+                    <ol>
+                        <li><a href="">기아k5 하이브리드 신차출<i class="icon-uparrow">41</i></a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="global_menu fr">
+                <ul>
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                    <li><a href="">마이페이지</a></li>
+                    <li><a href="">쪽지</a></li>
+                    <li><a href="">찜한차량</a></li>
+                    <li><a href="">고객센터</a></li>
+                    <li><a href="">전체매뉴</a></li>
+                    <li><a href="">모바일</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="lnb">
+
+            <div class="logo">
+                <h1><a href=""><img src="../images/bobea/logo.png" alt="보배드림"></a></h1>
+            </div>
+
+
+            <div class="banner"></div>
+            <div class="search"></div>
+            <div class="top_submenu"></div>
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
