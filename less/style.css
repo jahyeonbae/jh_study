@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.gnb {
+  border: 1px #F00 solid;
+}
+.gnb li {
+  border: 1px #F00 solid;
+}
+.gnb li:first-child {
+  border: 1px solid #ccc;
+}
+.gnb .a {
+  text-decoration: none;
+}
+.gnb .a:hover {
+  color: red;
+}

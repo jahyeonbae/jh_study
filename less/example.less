@@ -1,0 +1,26 @@
+ // out: exstyle.css, sourcemap: false, compress: false
+
+@wrap_width:990px;
+*{margin:0; padding: 0;}
+.centerwrap(){
+  width: @wrap_width;
+  margin: 0 auto;}
+
+
+header{
+  height: 30px;
+  border-bottom: 1px #F00 solid;
+  .gnb{
+    .centerwrap();
+    line-height: 30px;
+    .site_option{
+      float: left;
+    }
+  }
+
+}
+
+section{
+  .centerwrap();
+  .bobae{border: 1px #F00 solid; }
+}
